@@ -9,6 +9,11 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
+  settings: {
+    react: {
+      version: 'detect'
+    }
+  },
   plugins: ['react', 'prettier'],
   rules: {
     'prettier/prettier': ['error', { singleQuote: true, semi: true }],
