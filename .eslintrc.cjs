@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-undef
 module.exports = {
   env: {
     browser: true,
@@ -16,7 +17,7 @@ module.exports = {
   },
   plugins: ['react', 'prettier'],
   rules: {
-    'prettier/prettier': ['error', { singleQuote: true, semi: true, useTabs: false, endOfLine: false }],
+    'prettier/prettier': ['error', { singleQuote: true, semi: true, useTabs: false, endOfLine: 'auto' }],
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }]
